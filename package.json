@@ -1,0 +1,30 @@
+{
+  "name": "gomoThemeCreate",
+  "version": "0.0.1",
+  "description": "Environment to help streamline the creation of a gomo Player Theme.",
+  "main": "gomoThemeCreate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/j-hough/gomoThemeCreate.git"
+  },
+  "keywords": [
+    "gomo"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "gomoThemeCreate": "gomoThemeCreate.js"
+  },
+  "author": "James Hough",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-hough/gomoThemeCreate/issues"
+  },
+  "homepage": "https://github.com/j-hough/gomoThemeCreate",
+  "dependencies": {
+    "commander": "^2.6.0",
+    "express": "^4.10.7"
+  }
+}
